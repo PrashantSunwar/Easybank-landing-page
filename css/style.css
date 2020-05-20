@@ -7,6 +7,7 @@
 /*==============
 GENERAL STYLING
 =============== */
+
 body {
   margin: 0;
   font-size: 1.125rem;
@@ -495,7 +496,7 @@ OPEN MENU STYLES
 /*==============
  FOOTER STYLES
 =============== */
-
+/* Start Footer  */
 .footer {
   margin-top: 2em;
   padding: 2em 0;
@@ -521,6 +522,17 @@ OPEN MENU STYLES
 .footer-nav-link:hover {
   color: hsl(136, 65%, 51%);
 }
+
+/* button to move to the top  */
+
+.uptotop img {
+  display: block;
+  margin: auto auto 20px;
+  width: 40px;
+  cursor: pointer;
+}
+/* End Footer  */
+
 
 /* MEDIA QUERIES */
 
